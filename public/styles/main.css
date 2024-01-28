@@ -1,0 +1,47 @@
+body {
+    background-image: url(../img/jess-bailey-Bg3qkPDpopY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    
+} 
+
+h1 {
+    line-height: 3rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 0.5rem 0;
+    
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.nav-link {
+    color: white;
+    background-color: rgb(14, 116, 60);
+    font-weight: 500;
+    border: 0.6px solid  gray;
+    border-radius: 5px;
+}
+
+.todocontainer{
+    max-width: 40vw;
+    background-color: rgb(230, 221, 204);
+    border: 2px solid black;
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px rgb(41, 40, 40));
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
